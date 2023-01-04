@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="index_style.css" rel="stylesheet" />
+    <script src="javascript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4b1178568a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mainpage</title>
+  </head>
+  <body>
+    <div class="topPage">
+      <header class="main-header clearfix">
+        <h1>❤️ Health Karma</h1>
+
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="submission.html">Submission</a>
+          <a href="#">Blogs</a>
+          <a href="#">About us</a>
+        </nav>
+        <!--   <div class="clear"></div> -->
+      </header>
+      <div class="midpage">
+        <h2>Endorse a low cost imaging diagnostic facility</h2>
+        <h4><em>"What goes around comes around"</em></h4>
+
+        <input
+          type="button"
+          class="btnSubmission"
+          value="Submit Now"
+          onclick="location.href='submission.html';"
+        />
+      </div>
+    </div>
+    <h3>Search for a low cost facility</h3>
+    <br />
+    <div class="mastericonblock">
+      <div class="iconblock">
+        <span
+          id="SpecialSpan"
+          onmouseover="this.style.cursor='pointer'"
+          onmouseout="this.style.cursor='default'"
+          onclick="getData('xray')"
+          ;
+        >
+          <div class="icon-wrapper">
+            <i class="fa fa-x-ray custom-icon"><span></span></i>
+          </div>
+          <br />
+
+          <h5 class="xray">Xray</h5>
+        </span>
+      </div>
+
+      <div class="iconblock">
+        <span
+          id="SpecialSpan"
+          onmouseover="this.style.cursor='pointer'"
+          onmouseout="this.style.cursor='default'"
+          onclick="getData('MRI')"
+          ;
+        >
+        <div class="icon-wrapper">
+          <i class="fa fa-lungs custom-icon"></i>
+        </div>
+        <br />
+
+        <h5 class="mri">MRI</h5>
+      </div>
+
+      <div class="iconblock">
+        <span
+          id="SpecialSpan"
+          onmouseover="this.style.cursor='pointer'"
+          onmouseout="this.style.cursor='default'"
+          onclick="getData('ultrasound')"
+          ;
+        >
+        <div class="icon-wrapper">
+          <i class="fa fa-file-waveform custom-icon"></i>
+        </div>
+        <br />
+
+        <h5 class="ultrasound">Ultra Sound</h5>
+      </div>
+
+      <div class="iconblock">
+        <span
+          id="SpecialSpan"
+          onmouseover="this.style.cursor='pointer'"
+          onmouseout="this.style.cursor='default'"
+          onclick="getData('Dental')"
+          ;
+        >
+        <div class="icon-wrapper">
+          <i class="fa fa-tooth custom-icon"></i>
+        </div>
+        <br />
+
+        <h5 class="dental">Dental</h5>
+      </div>
+    </div>
+
+    <br />
+
+    <table align="center" id="table" border="1"></table>
+
+    <!--
+
+    <div class="icon-wrapper">
+      <i class="fa fa-users custom-icon"
+        ><span class="fix-editor">&nbsp;</span></i
+      >
+    </div>
+
+   
+    <div class="icon-wrapper">
+      <i class="fa fa-comment custom-icon"
+        ><span class="fix-editor">&nbsp;</span></i
+      >
+    </div>
+
+    <div class="icon-wrapper">
+      <i class="fa fa-bar-chart custom-icon"
+        ><span class="fix-editor">&nbsp;</span></i
+      >
+    </div>
+
+    <div class="icon-wrapper">
+      <i class="fa fa-plus-circle custom-icon"
+        ><span class="fix-editor">&nbsp;</span></i
+      >
+    </div>
+
+    <div class="icon-wrapper">
+      <i class="fa fa-cubes custom-icon"
+        ><span class="fix-editor">&nbsp;</span></i
+      >
+    </div>
+    -->
+  </body>
+</html>

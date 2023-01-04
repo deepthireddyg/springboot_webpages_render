@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="javascript.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SubmissionPage</title>
+  </head>
+  <body>
+    <header class="main-header clearfix">
+      <h1>❤️ Health Karma</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Submission</a>
+        <a href="#">Blogs</a>
+        <a href="#">About us</a>
+      </nav>
+      <!--   <div class="clear"></div> -->
+    </header>
+
+    <div class="container">
+      <div class="text-karma">
+        “The meaning of karma is in the intention. The intention behind action
+        is what matters.” — The Bhagavad Gita
+      </div>
+
+      <div class="submission">
+        <div class="form-elements">
+          <form id="submissionformid">
+            <h3 class="form-heading">Powered by you and everyone around you</h3>
+            <div class="form-class">
+              <input
+                id="PersonName"
+                type="text"
+                placeholder="Please enter name *"
+              />
+              <input id="EmailId" type="text" placeholder="Email *" />
+              <input
+                id="servicename"
+                type="text"
+                placeholder="Service Name *"
+              />
+              <input id="Price" type="text" placeholder="Price *" />
+              <input
+                id="ProviderName"
+                type="text"
+                placeholder="Provider Name *"
+              />
+              <input
+                id="ProviderStreet"
+                type="text"
+                placeholder="Provider Street Address *"
+              />
+              <input
+                id="ProviderCity"
+                type="text"
+                placeholder="Provider City *"
+              />
+              <input
+                id="ProviderState"
+                type="text"
+                placeholder="Provider State *"
+              />
+              <input
+                id="ProviderZipcode"
+                type="text"
+                placeholder="Provider Zipcode *"
+              />
+              <input id="ProviderRating" type="text" placeholder="Rating *" />
+              <input
+                type="button"
+                class="btnSubmission"
+                value="Submit"
+                onclick="postData()"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by Health Karma</p>
+    </footer>
+  </body>
+</html>

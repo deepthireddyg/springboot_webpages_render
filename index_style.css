@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+h1 {
+  color: #b8e6e1;
+}
+
+h2 {
+  color: #fff;
+  /* color: #a170d9;*/
+  font-size: 40px;
+  /* text-align: center;*/
+  padding-top: 5%;
+}
+
+nav a:link {
+  margin-right: 30px;
+  /* margin-top: 10px;*/
+  display: inline-block;
+  color: #b8e6e1;
+}
+
+.topPage {
+  /* background-image: url("moneyplant_unsplash.jpg");*/
+  background-image: url("background_image1.png");
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #a170d9;
+}
+
+.btnSubmission {
+  /* float: right;*/
+  margin-top: 2%;
+  margin-bottom: 20%;
+  border: none;
+  border-radius: 2.8rem;
+  padding: 2% 3.5%;
+  background: #a170d9;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/*
+.fas {
+  font-size: 50px;
+  color: #a170d9;
+}
+*/
+
+h4 {
+  color: #fff;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+/*
+.xray {
+  padding-left: 1.8%;
+}
+
+.mri {
+  padding-left: 1.8%;
+}
+*/
+
+/*
+.custom-icon {
+  font-size: 55px;
+  background: #fff;
+  //background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  -webkit-border-radius: 1100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  border: 3px solid #984cf0;
+  color: #984cf0;
+  // box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+*/
+
+.custom-icon1 {
+  font-size: 55px;
+  width: 170px;
+  height: 170px;
+  padding: 20%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 3px solid #984cf0;
+  color: #984cf0;
+}
+
+.custom-icon {
+  font-size: 45px;
+  width: 150px;
+  height: 150px;
+  padding: 18%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 3px solid #984cf0;
+  color: #984cf0;
+}
+
+.custom-icon:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*
+.fix-editor {
+  display: none;
+}
+*/
+
+.mastericonblock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+/*
+.icon-wrapper {
+  display: inline-block;
+}
+*/
+
+table,
+th,
+td {
+  border: 1px solid #984cf0;
+}
+th {
+  cursor: pointer;
+  color: #fff;
+  background-color: #a170d9;
+}
